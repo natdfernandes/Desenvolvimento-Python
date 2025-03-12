@@ -1,0 +1,6 @@
+dados = [
+    ['Nome', 'Idade', 'Cidade'],
+    ['João', '25', 'São Paulo'],
+    ['Maria', '40', 'Rio de Janeiro'],
+    ['Ana', '25', 'Campinas']
+]
