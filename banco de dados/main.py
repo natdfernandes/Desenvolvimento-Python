@@ -35,5 +35,5 @@ for linha in registros:
     print(linha)  # Ex: (1, ' João Silva', 'Joao@gmail.com)
 
 # Filtrar com WHERE
-cursor.execute("SELECT nome FROM ALUNOS WHERE email = ?", ("maria@gmail.com"))
+cursor.execute("SELECT nome FROM ALUNOS WHERE email = ?", ["maria@gmail.com"])
 print(cursor.fetchone())
